@@ -12,6 +12,10 @@ To open pgadmin:
     - POSTGRES_USER=myuser
     - POSTGRES_PASSWORD=mypassword
 
+To install all required libs run:
+
+`pip install -r requirements.txt`
+
 if you add new lib don't forget to modify requirements.txt
 
 `pip freeze -> ./app/requirements.txt`
