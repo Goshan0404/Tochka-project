@@ -1,5 +1,6 @@
 from fastapi import FastAPI, Depends, HTTPException, status, UploadFile, File
 from sqlalchemy.orm import Session
+from uuid import UUID
 import uuid
 import schemas, crud
 from database import get_db, engine
